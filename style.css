@@ -33,7 +33,7 @@ body {
 .logolink {
   display: flex;
   align-items: center;
-  gap: 540px; 
+  gap: 760px; 
 }
 
 
@@ -138,7 +138,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 150px; 
+  padding: 150px;
+  padding-left: 50px; 
 }
 
 .quote {
@@ -151,7 +152,7 @@ a {
 .author {
   display: flex;
   font-size: 26px;
-  padding-left: 480px;
+  padding-left: 610px;
 }
 
 
@@ -167,7 +168,7 @@ a {
 .content3-1 {
   background-color: #3882F6;
   border-radius: 10px;
-  padding: 70px 170px;
+  padding: 70px 140px;
   display: flex;
   gap: 180px;
 }
@@ -199,11 +200,20 @@ a {
 .footer {
   background-color: #1F2937;
   color:#F9FAF8;
-  padding: 55px;
+  padding: 35px;
   text-align: center;
 }
 
+/* Image edit*/
 
+
+.image1 img {
+  border-radius: 10px;
+}
+
+.image2 img {
+  border-radius: 5px;
+}
 
 
 
